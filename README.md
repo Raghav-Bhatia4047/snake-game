@@ -1,10 +1,37 @@
-# 🐍 Snake Game (Rust)
+# 🐍 Snake Game in Rust
+
+A classic Snake Game built using **Rust**. The game demonstrates core game development concepts such as game loops, keyboard input handling, collision detection, and score tracking. Control the snake, collect apples to grow longer, and avoid colliding with the walls or yourself.
+
+---
 
 ## 📖 Project Overview
 
-This project is a classic **Snake Game** developed in **Rust**, demonstrating the use of Rust for game development. The objective of the game is to control the snake, collect food to increase its length, and survive as long as possible without colliding with the walls or the snake's own body.
+This project is a simple implementation of the classic Snake Game developed in Rust. It was created to explore Rust's performance and safety while building an interactive desktop game with clean and modular code.
 
-The project showcases fundamental game development concepts such as game loops, collision detection, input handling, rendering, and score management while leveraging Rust's performance and memory safety.
+---
+
+## ✨ Features
+
+* Classic Snake gameplay
+* Smooth snake movement
+* Random apple spawning
+* Snake grows after eating apples
+* Real-time score tracking
+* Collision detection with walls and the snake's body
+
+---
+
+## 🛠 Requirements
+
+* Rust (latest stable version)
+* Cargo
+
+Verify the installation:
+
+```bash
+rustc --version
+cargo --version
+```
 
 ---
 
@@ -13,75 +40,29 @@ The project showcases fundamental game development concepts such as game loops, 
 ```text
 snake-game/
 ├── src/                 # Source code
-│   ├── main.rs          # Entry point of the application
-│   ├── game.rs          # Core game logic
-│   ├── snake.rs         # Snake movement and behavior
-│   ├── food.rs          # Food generation
-│   └── ...              # Additional modules
-├── assets/              # Images, fonts, or game resources (if any)
-├── Cargo.toml           # Project dependencies and metadata
+├── Cargo.toml           # Project configuration
 ├── Cargo.lock           # Dependency lock file
 ├── README.md            # Project documentation
-└── target/              # Compiled build files (generated automatically)
+└── target/              # Build files (generated automatically)
 ```
-
-> **Note:** The exact files may vary depending on the project implementation.
-
----
-
-## ✨ Features
-
-* Classic Snake gameplay
-* Smooth snake movement
-* Random food spawning
-* Real-time score tracking
-* Collision detection with walls and snake body
-* Increasing difficulty as the snake grows
-* Fast and efficient implementation using Rust
-
----
-
-## 🛠 Requirements
-
-Before running the project, ensure the following are installed:
-
-* Rust (latest stable version)
-* Cargo (comes with Rust)
-
-To verify installation:
-
-```bash
-rustc --version
-cargo --version
-```
-
-Install Rust from:
-
-https://www.rust-lang.org/tools/install
 
 ---
 
 ## ▶️ How to Run
 
-### 1. Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/snake-game.git
 ```
 
-### 2. Navigate to the project directory
+Navigate to the project directory:
 
 ```bash
 cd snake-game
 ```
 
-### 3. Build the project
-
-```bash
-cargo build
-```
-
-### 4. Run the game
+Run the game:
 
 ```bash
 cargo run
@@ -91,55 +72,36 @@ cargo run
 
 ## 🎮 Controls
 
-| Key | Action                   |
-| --- | ------------------------ |
-| ↑   | Move Up                  |
-| ↓   | Move Down                |
-| ←   | Move Left                |
-| →   | Move Right               |
-| Esc | Exit Game (if supported) |
+| Key | Action     |
+| --- | ---------- |
+| ↑   | Move Up    |
+| ↓   | Move Down  |
+| ←   | Move Left  |
+| →   | Move Right |
 
 ---
 
 ## 🎥 Demo
 
-## 🎮 Demo
+**Gameplay Video:**
+https://youtu.be/obB16YK18gk
 
-Gameplay Video: [Watch the gameplay](demo/gameplay.mp4)
 ---
 
 ## 🚀 Future Enhancements
 
-Some planned improvements include:
-
-* High score saving
-* Pause and resume functionality
-* Multiple difficulty levels
+* Pause and Resume functionality
+* Restart without restarting the application
+* High score system
+* Game Over screen with restart option
+* Progressive difficulty and speed increase
 * Sound effects and background music
-* Improved graphics and animations
-* Power-ups and special food
-* Main menu and game settings
-* Mobile or web support
+* Improved UI and animations
 
 ---
 
-## ⚠ Known Issues / Limitations
+## ⚠️ Known Issues
 
-* No persistent high-score storage.
-* Game ends immediately upon collision.
-* Difficulty progression is limited.
-* Window resizing may not be supported.
-* Limited visual effects and animations.
-
----
-
-## 📚 Technologies Used
-
-* **Rust**
-* **Cargo**
-* Rust game development libraries (as specified in `Cargo.toml`)
-
----
-## 📄 License
-
-This project is intended for educational and learning purposes. 
+* High scores are not saved between sessions.
+* Pause and restart functionality are not implemented.
+* No dedicated Game Over screen.
