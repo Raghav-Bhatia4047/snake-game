@@ -86,6 +86,10 @@ cargo run
 **Gameplay Video:**
 https://youtu.be/obB16YK18gk
 
+**Screenshots**
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 ---
 
 ## 🚀 Future Enhancements
