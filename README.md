@@ -83,13 +83,22 @@ cargo run
 
 ## 🎥 Demo
 
-**Gameplay Video:**
+**Gameplay Video:**  
 https://youtu.be/obB16YK18gk
 
-**Screenshots**
-![game](image.png)
-![game over](image-1.png)
-![snake and food](image-2.png)
+### 📸 Screenshots
+
+#### 🎮 Game
+
+![Game](image.png)
+
+#### 💀 Game Over
+
+![Game Over](image-1.png)
+
+#### 🐍 Snake and Food
+
+![Snake and Food](image-2.png)
 ---
 
 ## 🚀 Future Enhancements
