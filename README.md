@@ -25,6 +25,9 @@ This project is a simple implementation of the classic Snake Game developed in R
 
 * Rust (latest stable version)
 * Cargo
+Install Rust and Cargo if needed:
+
+https://www.rust-lang.org/tools/install
 
 Verify the installation:
 
