@@ -53,7 +53,7 @@ snake-game/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/snake-game.git
+git clone https://github.com/Raghav-Bhatia4047/snake-game.git
 ```
 
 Navigate to the project directory:
