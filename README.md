@@ -87,9 +87,9 @@ cargo run
 https://youtu.be/obB16YK18gk
 
 **Screenshots**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![game](image.png)
+![game over](image-1.png)
+![snake and food](image-2.png)
 ---
 
 ## 🚀 Future Enhancements
